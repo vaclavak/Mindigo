@@ -8,7 +8,7 @@ import vpp.vac.mindigo.util.logger.Logger;
 public class Main {
 
 	public static final String PREFIX = "[Mindigo]";
-	public static final String VERSION = "1.0.0";
+	public static final String VERSION = "1.0.1";
 	public static String[] argz;
 	public static Logger log;
 

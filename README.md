@@ -49,7 +49,10 @@ Mindigo will compile your source code and package it into a runnable `.jar` file
   "projectName": "testApp",
   "description": "Default description",
   "mainClass": "vpp.vac.test.Main",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "libFolder": "libs",
+  "srcFolder": "src"
+
 }
 ```
 

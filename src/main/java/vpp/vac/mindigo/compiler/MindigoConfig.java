@@ -33,6 +33,14 @@ public class MindigoConfig {
 	public String getProjectName() {
 		return jsonObject.has("projectName") ? jsonObject.get("projectName").getAsString() : "UnknownProject";
 	}
+	
+	public String getSrcFolder() {
+		return jsonObject.has("srcFolder") ? jsonObject.get("srcFolder").getAsString() : "UnknownProject";
+	}
+	
+	public String getLibsFolder() {
+		return jsonObject.has("libFolder") ? jsonObject.get("libFolder").getAsString() : "UnknownProject";
+	}
 
 	public String getDescription() {
 		return jsonObject.has("description") ? jsonObject.get("description").getAsString() : "";

@@ -29,6 +29,8 @@ public class MindigoInit extends Argument {
 				defaultJson.addProperty("description", "Default description");
 				defaultJson.addProperty("mainClass", "com.example.Main");
 				defaultJson.addProperty("version", "0.0.1");
+				defaultJson.addProperty("libFolder", "libs");
+				defaultJson.addProperty("srcFolder","src");
 
 				try (FileWriter writer = new FileWriter(file)) {
 					new GsonBuilder().setPrettyPrinting().create().toJson(defaultJson, writer);
