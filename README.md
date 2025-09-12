@@ -10,6 +10,7 @@
 - **Configurable Builds:** Uses a `mindigo.json` file for configuration.
 - **Produces Runnable JARs:** Quickly compiles your code into runnable `.jar` files.
 - **Minimal Setup:** Perfect for quick project bootstrapping or scripting.
+- **Warning:** Dependencies are not supported yet, but they will be very soon.
 
 ---
 
