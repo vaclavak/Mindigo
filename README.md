@@ -45,13 +45,10 @@ Mindigo will compile your source code and package it into a runnable `.jar` file
 
 ```json
 {
-  "mainClass": "com.example.Main",
-  "sourceDir": "src",
-  "outputDir": "dist",
-  "jarName": "example.jar",
-  "dependencies": [
-    "libs/some-library.jar"
-  ]
+  "projectName": "testApp",
+  "description": "Default description",
+  "mainClass": "vpp.vac.test.Main",
+  "version": "0.0.1"
 }
 ```
 
