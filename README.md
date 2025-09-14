@@ -13,6 +13,7 @@
 
 ---
 
+
 ## Getting Started
 
 ### 1. Install Mindigo
@@ -56,6 +57,31 @@ Mindigo will compile your source code and package it into a runnable `.jar` file
 ```
 
 ---
+
+## Building from src
+
+You can build Mindigo using Mindigo itself, or you can also build using maven.
+
+### Mindigo
+1. Clone the repository
+```sh
+git clone https://github.com/vaclavak/Mindigo.git
+```
+2. Build using Mindigo, (if you have mindigo installed elsewhere and put in path, you dont have to use the provided mindigo build)
+```sh
+java -jar mindigo.1.0.1.jar build
+```
+
+### Maven
+
+1. Clone the git repository
+```sh
+git clone https://github.com/vaclavak/Mindigo.git
+```
+2. Build using maven (Make sure maven you have maven installed)
+```sh
+mvn clean package
+```
 
 ## Commands
 
